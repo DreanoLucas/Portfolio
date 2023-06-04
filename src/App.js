@@ -1,25 +1,54 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from "react";
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+// import Projects from './pages/Projects';
+import Navbar from './componets/navbar';
+import Footer from './componets/footer';
+import ProjectDisplay from './pages/ProjectDisplay';
+import PreLoader from "./componets/preLoader";
 
 function App() {
+  const [completed, setcompleted] = useState(undefined);
+
+  useEffect(() => {
+    setTimeout(() => 
+      {
+        fetch("https://jsonplaceholder.typicode.com/posts")
+          .then((response) => response.json())
+          .then((json) => {
+            console.log(json);
+            setTimeout(() => {
+              setcompleted(true);
+            }, 1500);
+          });
+      },
+    2000);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    {!completed ? ( /*enleve le ! devant completed si t'as pas de connexion en local*/
+      <>
+        <PreLoader/>
+      </>
+    ) : (
+      <>
+    <div className="App"> 
+      <Router>  
+        <Navbar/>
+        <Routes> 
+          <Route path='/' element={<Home />}/> 
+          {/* <Route path='/projects' element={<Projects />}/> */}
+          <Route path='/project/:id' element={<ProjectDisplay />} />
+        </Routes>
+        <Footer/>
+      </Router>
     </div>
-  );
+    </>
+    )}
+  </>
+);
 }
 
 export default App;

@@ -1,0 +1,37 @@
+.project {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--lightcolor);
+  }
+  
+  .project h1 {
+    margin-top: 50px;
+    color: var(--textcolor);
+    font-size: 35px;
+    border: none;
+  }
+  .project img {
+    width: 700px;
+    border-radius: 10px;
+  }
+  
+  .project p {
+    font-size: 40px;
+    color: var(--textcolor);
+  }
+
+  .project span {
+    text-align: center;
+    font-size: 25px;
+    color: var(--textcolor);
+    margin-bottom: 10px;
+    max-width: 750px;
+  }
+
+  .project svg {
+    font-size: 60px;
+    color: var(--textcolor);
+  }
