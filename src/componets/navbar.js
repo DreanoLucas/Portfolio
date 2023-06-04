@@ -36,7 +36,7 @@ function Navbar() {
         </Link>
         <ul className="nav_links">
           {console.log(window.location.pathname)}
-          {window.location.pathname === "/Portfolio2" ? (
+          {window.location.pathname === "/Portfolio2/" ? (
             <>
               {NavbarList.map(({ name, id }, index) => (
                 <li key={index}>
