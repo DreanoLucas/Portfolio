@@ -17,7 +17,7 @@ function App() {
         fetch("https://jsonplaceholder.typicode.com/posts")
           .then((response) => response.json())
           .then((json) => {
-            console.log(json);
+            // console.log(json);
             setTimeout(() => {
               setcompleted(true);
             }, 1500);
@@ -35,10 +35,11 @@ function App() {
     ) : (
       <>
     <div className="App"> 
-      <Router>  
+      <Router basename={window.location.pathname || ""}>   {/*FAUT test  */}
         <Navbar/>
         <Routes> 
-          <Route path='/Portfolio' element={<Home />}/> 
+          {/* <Route path='/' element={<Home />}/>  */}
+          <Route path='/' element={<Home />}/> 
           {/* <Route path='/projects' element={<Projects />}/> */}
           <Route path='/project/:id' element={<ProjectDisplay />} />
         </Routes>
