@@ -17,6 +17,7 @@
     border: none;
     /* font-weight: bold; */
     color: white;
+    margin: 0;
   }
   
   .preloader h1 .title{

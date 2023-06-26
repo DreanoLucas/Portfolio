@@ -25,11 +25,7 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expandNavBar ? "open" : "close"}>
-      <div className="toggleButton">
-        <button onClick={() => setExpandNavbar((prev) => !prev)}>
-          <ReorderIcon />
-        </button>
-      </div>
+
       <div className="nav_container">
         <Link to={"/"} className="logo">
           CM.
@@ -45,11 +41,17 @@ function Navbar() {
               ))}
             </>
           ) : (
-            <li>
+            <li className="retour">
               <a onClick={handleGoBack}>Retour</a>
             </li>
           )}
         </ul>
+        {window.location.pathname === "/Portfolio/" ? ( 
+        <div className="toggleButton">
+          <button onClick={() => setExpandNavbar((prev) => !prev)}>
+            <ReorderIcon />
+          </button>
+        </div>): <></>}
       </div>
     </div>
   );

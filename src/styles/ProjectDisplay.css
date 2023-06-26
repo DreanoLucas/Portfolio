@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     background: var(--lightcolor);
   }
@@ -14,7 +15,8 @@
     border: none;
   }
   .project img {
-    width: 700px;
+    width: 70%;
+    max-width: 700px;
     border-radius: 10px;
   }
   
