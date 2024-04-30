@@ -3,11 +3,13 @@
   --darkcolor: #D8D1CB;
   --lightcolor: #F4F0EC ;
   --navcolor: #BFB09E ;
-  --textcolor: #6C5B47; 
+  --textcolor: #6C5B47;
+  font-family: "Arial", sans-serif; 
 }
 
 html{
   scroll-behavior: smooth;
+  scrollbar-width: none; 
 }
 
 body{

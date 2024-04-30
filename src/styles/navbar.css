@@ -30,7 +30,7 @@ ul{
 .nav_container{
     height: 100%;
     display: flex;
-    /* width: 98%; */
+    width: 99%;
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -119,5 +119,8 @@ ul{
     }
     .nav_links li{
         display: none;
+    }
+    .nav_container{
+        width: 100%;
     }
 }

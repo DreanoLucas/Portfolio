@@ -14,13 +14,11 @@ function App() {
   useEffect(() => {
     setTimeout(() => 
       {
-        fetch("https://jsonplaceholder.typicode.com/posts")
-          .then((response) => response.json())
-          .then((json) => {
-            // console.log(json);
+        fetch("https://chadi-mangle.github.io/Portfolio/")
+          .then((response) => {
             setTimeout(() => {
               setcompleted(true);
-            }, 1500);
+            }, 1700);
           });
       },
     2000);

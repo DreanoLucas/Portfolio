@@ -11,4 +11,8 @@ export const NavbarList = [
         name: "Mes projets",
         id: "#projects"
     },
+    {
+        name: "Contact", 
+        id: "#contact"
+    },
 ]
