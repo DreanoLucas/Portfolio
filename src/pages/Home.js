@@ -60,21 +60,6 @@ function Home(){
 
                     <div id="skill-area">{currentDescription}</div>  
                 </div>
-              
-                {/* <ol className="list">
-                    <li className="item"> 
-                        <h2>Administrer les réseaux et l’Internet</h2> 
-                        <span>Je maîtrise DHCP pour gérer des IP dynamiques et statiques, SSH pour les  connexions sécurisées à distance. J'ai expérimenté Apache2 pour faire des sites web dynamiques, FTP/SFTP pour le transfert de fichiers. Je connais le modèle TCP/IP et Iptables pour la sécurité réseau. J’utilise GitLab CI/CD, et AWS pour le déploiement continu. J’ai créé des réseaux virtuels avec VirtualBox, GNS3. J'ai administré la téléphonie via HyperTerminal.</span> 
-                    </li>
-                    <li className="item"> 
-                        <h2>Connecter les entreprises et les usagers</h2> 
-                        <span>J’utilise Arduino et TinkerCad pour faire de l’éléctronique. J’ai des connaissances en fibre optiques et en transmition de signaux.</span>
-                    </li>
-                    <li className="item"> 
-                        <h2>Créer des outils et applications informatiques</h2> 
-                        <span>Je maîtrise Python pour la création de programmes et l'automatisation de tâches. J'utilise Bash pour l'automatisation des processus. Mes compétences en Javascript et React me permettent de développer des interfaces pour les applications web. J'ai une expérience en gestion et manipulation de bases de données grâce à SQL. Je conçois des solutions et mets en œuvre des algorithmes en utilisant C ou C++.</span> 
-                    </li>
-                </ol> */}
             </div>
             
         <div className="projects" id="projects">

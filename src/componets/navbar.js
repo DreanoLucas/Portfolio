@@ -33,7 +33,7 @@ function Navbar() {
         <ul className="nav_links">
           {/* {console.log(window.location.pathname)} */}
           {/* mettre /Portfolio/ pour github */}
-          {window.location.pathname === "/" ? ( 
+          {window.location.pathname === "/Portfolio/" ? ( 
             <>
               {NavbarList.map(({ name, id }, index) => (
                 <li key={index}>
@@ -48,7 +48,7 @@ function Navbar() {
           )}
         </ul>
           {/* mettre /Portfolio/ pour github */}
-        {window.location.pathname === "/" ? ( 
+        {window.location.pathname === "/Portfolio/" ? ( 
         <div className="toggleButton">
           <button onClick={() => setExpandNavbar((prev) => !prev)}>
             <ReorderIcon />
