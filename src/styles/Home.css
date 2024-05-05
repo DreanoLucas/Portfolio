@@ -24,6 +24,11 @@ a:active{
 p, span{
   font-weight: bold;
 }
+
+h3{
+  margin: 0;
+}
+
 .home {
   width: 100%;  
   align-items: center;
@@ -244,6 +249,11 @@ p, span{
   font-size: 25px;
 }
 
+#skill-area{
+  font-size: 25px;
+  line-height: 1.2;
+}
+
 .contact {
   font-size: 35px;
   width: 100%;
@@ -270,29 +280,43 @@ p, span{
   padding: 20px;
   background-color: var(--darkcolor);
   border-radius: 10px ;
+  display: flex;
 }
 
 .contact .container form{
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   display: flex;
   flex-direction: column; 
 }
 
 .contact .container form input{
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-size: large;
   background-color: var(--darkcolor);
   border: 0;
   border-bottom: solid;
   border-color: var(--textcolor);
+  padding: 5px;
+  font-size: 25px;
+  font-family: "Arial", sans-serif; 
+  color: var(--textcolor);
 }
 
 .contact .container form textarea{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: large;
   resize: none;
   background-color: var(--darkcolor);
-  border: 0;
+  border-color: var(--textcolor);
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 25px;
+  font-family: "Arial", sans-serif; 
+  color: var(--textcolor);
+}
+
+::placeholder {
+  color: var(--textcolor);
 }
 
 .contact .container form input[type=submit]{
@@ -302,6 +326,22 @@ p, span{
   border: 0;
   border-bottom: solid;
   border-color: var(--textcolor);
+  border-radius: 3px;
+  color: var(--lightcolor);
+  font-size: 25px;
+}
+
+.contact .more{
+  margin: 0 20px;
+}
+
+.contact .more .contact-link{
+  text-align: left;
+}
+
+.contact .more p{
+  font-size: 20px;
+  max-width: 500px;
 }
 
 
@@ -310,7 +350,31 @@ p, span{
       grid-template-columns: 1fr 1fr;
       place-items: center;
     }
+
+    .contact .container form textarea{
+      height: 50px;
+    }
+    .contact .container form textarea{
+      font-size: smaller;
+    }
+    .contact .container{
+      flex-direction: column-reverse
+    }
+
+    .contact .more p{
+      margin-bottom: 5px;
+    }
+
+    .contact .more{
+      margin: 0;
+      margin-bottom: 20px;
+    }
+
+    #skill-area{
+      font-size: 20px;
+    }
   }
+
   
   @media only screen and (max-width: 900px) {
     .projectList {
@@ -325,7 +389,10 @@ p, span{
     .projects h1{
       font-size: 3.18em;
     }
+
   }
+
+
     
   @media only screen and (max-width: 600px) {
     .about h2 {
@@ -420,11 +487,13 @@ p, span{
     .skills{
       height: auto;
       padding-bottom: 5vh;
+      display: none;
   }
 
     .contact{
       height: auto;
       padding-bottom: 5vh;
+      display: none;
     }
 }
 

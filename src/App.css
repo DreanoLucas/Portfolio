@@ -1,9 +1,10 @@
+
 :root{
-  --white: #F4F0EC ; 
-  --darkcolor: #D8D1CB;
-  --lightcolor: #F4F0EC ;
-  --navcolor: #BFB09E ;
-  --textcolor: #6C5B47;
+  --white: #EDF2F5 ; 
+  --darkcolor: #CCD4D9;
+  --lightcolor: #EDF2F5 ;
+  --navcolor: #9FB0BF ;
+  --textcolor: #51606B;
   font-family: "Arial", sans-serif; 
 }
 

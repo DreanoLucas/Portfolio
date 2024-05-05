@@ -13,6 +13,11 @@ import cv from "../assets/Chadi_Mangle_CV_Apprentissage.pdf"
 
 import "../styles/Home.css"
 
+import LInkedInIcon from "@material-ui/icons/LinkedIn"
+import EmailIcon from "@material-ui/icons/Email"
+import GitHubIcon from '@material-ui/icons/GitHub'
+
+
 function Home(){
 
     const [currentDescription, setCurrentDescription] = useState('');
@@ -26,12 +31,12 @@ function Home(){
                         <p>Apprenti en Bachelor Universitaire de Technologie en Réseaux et 
                             Télécommunications à l'Université Sorbonne Paris Nord, je recherche 
                             un nouveau contrat d'apprentissage pour une durée de trois ans pour la 
-                            rentrée prochaine. En effet je suis admissible l'année prochaine à Télécoms Sud Paris 
+                            rentrée prochaine. En effet je suis admis l'année prochaine à Télécoms Sud Paris 
                             et j'ai besion d'une entreprise pour m'accompagné dans mon Cycle 
                             d'Ingénieur.</p>
 
-                        <p>J'espère développé durant ma formation des compétences afin de pouvoir devenir Ingénieur 
-                            NetSecOps dès la fin de mon parcours universitaire.</p>
+                        <p>J'espère développé durant ma formation des compétences afin de pouvoir devenir Architecte 
+                            Réseau dès la fin de mon parcours universitaire.</p>
                         
                         <p>J'apprécie aussi le <a href="https://www.behance.net/Dachy" target="_blank" rel="noreferrer">design</a> que 
                             se soit la création de logo, l'animation et la modélisation 3D.</p>
@@ -53,7 +58,7 @@ function Home(){
                     return <SkillItem name={skill.name} image={skill.image} description={skill.description} skills={skill.skills} setCurrentDescription={setCurrentDescription}/>
                 })}
 
-                    <div id="skill-area"> {currentDescription} </div>  
+                    <div id="skill-area">{currentDescription}</div>  
                 </div>
               
                 {/* <ol className="list">
@@ -84,8 +89,19 @@ function Home(){
                 <h1>Contact</h1>
 
                 <div className="container">
-                    <h2>Me contacter</h2>
-                    <Contact/>
+                    <div className="form">
+                        <h3>Me contacter </h3>
+                        <Contact/>
+                    </div>
+                    <div className="more">
+                        <h3>En savoir plus</h3>
+                        <p>Pour toute demande, n'hésitez pas à me contacter grâce à l'un de ces moyens.</p>
+                        <ul className="contact-link">
+                            <li> <EmailIcon/> <a href="mailto:chadimangled@gmail.com" target="_blank" rel="noreferrer">chadimangled@gmail.com</a></li>
+                            <li> <LInkedInIcon/> <a href="https://www.linkedin.com/in/chadi-md-362b08265/" target="_blank" rel="noreferrer">Chadi MD</a></li>
+                            <li> <GitHubIcon/> <a href="https://github.com/Chadi-Mangle" target="_blank" rel="noreferrer" >Chadi-Mangle</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

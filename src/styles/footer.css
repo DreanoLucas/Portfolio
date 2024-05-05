@@ -17,7 +17,7 @@
     transition: color 100ms ease;
   }
   .socialMedia svg:hover{
-    color: wheat
+    color: var(--textcolor)
   }
 
   .footer span {
