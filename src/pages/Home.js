@@ -17,6 +17,7 @@ import LInkedInIcon from "@material-ui/icons/LinkedIn"
 import EmailIcon from "@material-ui/icons/Email"
 import GitHubIcon from '@material-ui/icons/GitHub'
 
+import headerImg from '../assets/header.png'
 
 function Home(){
 
@@ -25,28 +26,37 @@ function Home(){
     return(
         <div className="home" id="home">
             <div className="about">
-                <h2>Bonjour, je suis</h2>
-                <h1><span>Chadi</span> Manglé.</h1>
-                <div className="prompt"> 
-                        <p>Apprenti en Bachelor Universitaire de Technologie en Réseaux et 
-                            Télécommunications à l'Université Sorbonne Paris Nord, je recherche 
-                            un nouveau contrat d'apprentissage pour une durée de trois ans pour la 
-                            rentrée prochaine. En effet je suis admis l'année prochaine à Télécoms Sud Paris 
-                            et j'ai besion d'une entreprise pour m'accompagné dans mon Cycle 
-                            d'Ingénieur.</p>
-
-                        <p>J'espère développé durant ma formation des compétences afin de pouvoir devenir Architecte 
-                            Réseau dès la fin de mon parcours universitaire.</p>
-                        
-                        <p>J'apprécie aussi le <a href="https://www.behance.net/Dachy" target="_blank" rel="noreferrer">design</a> que 
-                            se soit la création de logo, l'animation et la modélisation 3D.</p>
-
-                        <p>Je suis prêt à relever de nouveaux défis en tant qu'apprenti. En plus des 
-                            compétences techniques, je possède également de bonnes capacités d'analyse 
-                            et de résolution de problèmes téchniques et relationels. J'aime travailler
-                            et je suis capable de communiquer efficacement.</p>
+                <div className="header">
+                    <div className="header-text">
+                        <h2>Bonjour, je suis</h2>
+                        <h1><span>Chadi</span> Manglé.</h1>
+                    </div>
+                    <img className="header-img" src={headerImg}></img>
                 </div>
+                <div className="prompt"> 
+                        <p>Étudiant en Bachelor Universitaire de Technologie en Réseaux et 
+                            Télécommunications à l'Université Sorbonne Paris et admis à Télécom Sud Paris 
+                            l'année prochaine en Cycle d'Ingénieur informatique et Réseau.</p>
 
+
+                        <p>Mon objectif est de développer durant ma formation des compétences qui me 
+                            permettront de devenir Architecte Réseau dès la fin de mon parcours 
+                            universitaire.</p>                            
+                            
+                        <p>Je suis donc à la recherche d'un nouveau contrat d'apprentissage d'une durée de trois ans 
+                            pour la rentrée prochaine.</p>
+
+                        <p>Je suis prêt à relever de nouveaux défis en tant qu'apprenti. En plus 
+                            des compétences techniques, je possède également de bonnes capacités 
+                            d'analyse et de résolution de problèmes techniques et relationnels. 
+                            J'aime travailler en équipe et je suis capable de communiquer 
+                            efficacement.</p>
+
+                        <p>J'apprécie aussi le <a href="https://www.behance.net/Dachy" target="_blank" 
+                            rel="noreferrer">design</a> que ce soit la création de logos, l'animation ou la 
+                            modélisation 3D.</p>
+
+                </div>
                 <div className="contain-button"><a href={cv} target="_blank" rel="noreferrer"><div className="button"> <p><span>Mon CV</span></p></div></a></div>
             </div>
             

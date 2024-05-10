@@ -36,13 +36,13 @@ export const SkillList = [
         ]
     }, 
     {
-        name: "Service Réseau", 
+        name: "Services Réseau", 
         description: "Un service réseau fait référence à toute fonctionnalité ou application qui est accessible à travers un réseau informatique. Ces services peuvent être de nature très diverse, allant des simples transferts de fichiers aux communications en temps réel, en passant par le stockage de données et l'accès à des ressources partagées.", 
         image: serviceReseauImg, 
         skills: [
             {
                 name: "Asterisk",
-                description: "J'ai utilisé Asterisk pour configurer des téléphones SIP, permettant ainsi de passer des appels via Internet. De plus, j'ai mis en place des solutions de téléphonie web en utilisant PJSIP. Grâce à cette combinaison, j'ai développé un service Télélphonie Web.", 
+                description: "J'ai utilisé Asterisk pour configurer des téléphones SIP, permettant ainsi de passer des appels via Internet. De plus, j'ai mis en place des solutions de VoIP en utilisant PJSIP. Grâce à cette combinaison, j'ai pu développé un service Télélphonie Web.", 
                 image: asteriskImg,
             },
             {

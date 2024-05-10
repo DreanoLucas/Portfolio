@@ -12,7 +12,7 @@ function Footer() {
             <a href="mailto:chadimangled@gmail.com" target='_blank'><EmailIcon/></a>
             <a href='https://github.com/Chadi-Mangle' target='_blank'><GitHubIcon/></a>
         </div>
-        <span> Chadi Manglé - &copy;2023 </span>
+        <span> Chadi Manglé - &copy;2024 </span>
     </div>
   )
 }

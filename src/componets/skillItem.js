@@ -3,12 +3,17 @@ import React from 'react'
 function SkillItem({ image, name, description, skills, setCurrentDescription  }) { 
 
   return (
-    <div className="skillItem" >
-      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" 
-        onMouseEnter={() => setCurrentDescription(name + " : " + description)}
-        onMouseLeave={() => setCurrentDescription("")}>
-        <div className='bgColor'/>
-      </div>
+
+      <div className="skillItem" >
+        <div className='skill'>
+        <div style={{ backgroundImage: `url(${image})` }} className="bgImage" 
+          onMouseEnter={() => setCurrentDescription(name + " : " + description)}
+          onMouseLeave={() => setCurrentDescription("")}>
+        </div>
+
+        <h2> {name} </h2>
+        </div>
+
 
       {skills !== undefined && (
         <div className='subSkill'>
