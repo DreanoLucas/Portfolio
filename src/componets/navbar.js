@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import { NavbarList } from "../helper/NavbarList";
 
-import "../styles/navbar.css";  
+import "../styles/navbar.css";
 
 function Navbar() {
   const [expandNavBar, setExpandNavbar] = useState(false);
@@ -25,15 +25,14 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expandNavBar ? "open" : "close"}>
-
       <div className="nav_container">
         <Link to={"/"} className="logo">
-          CM.
+          LD.
         </Link>
         <ul className="nav_links">
           {/* {console.log(window.location.pathname)} */}
           {/* mettre /Portfolio/ pour github */}
-          {window.location.pathname === "/Portfolio/" ? ( 
+          {window.location.pathname === "/Portfolio/" ? (
             <>
               {NavbarList.map(({ name, id }, index) => (
                 <li key={index}>
@@ -47,13 +46,16 @@ function Navbar() {
             </li>
           )}
         </ul>
-          {/* mettre /Portfolio/ pour github */}
-        {window.location.pathname === "/Portfolio/" ? ( 
-        <div className="toggleButton">
-          <button onClick={() => setExpandNavbar((prev) => !prev)}>
-            <ReorderIcon />
-          </button>
-        </div>): <></>}
+        {/* mettre /Portfolio/ pour github */}
+        {window.location.pathname === "/Portfolio/" ? (
+          <div className="toggleButton">
+            <button onClick={() => setExpandNavbar((prev) => !prev)}>
+              <ReorderIcon />
+            </button>
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );

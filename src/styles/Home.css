@@ -200,6 +200,7 @@ h3{
 
 .skillItem {
   display: flex;
+  border-bottom: solid 2px var(--navcolor);
 }
 
 .subSkill {
@@ -208,6 +209,9 @@ h3{
   justify-content: space-evenly;
   align-items: center; 
   overflow: hidden;
+}
+.subSkill .skillItem {
+  border-bottom: hidden;
 }
 
 .skillItem .bgImage{
