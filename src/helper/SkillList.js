@@ -35,7 +35,7 @@ export const SkillList = [
             {
                 name: "SQL",
                 description:
-                    "J'ai utilisé SQL pour gérer des bases de données relationnelles, d'écrire des requêtes pour extraire et manipuler des données, et de concevoir des schémas de base de données optimisés pour répondre à des besoins spécifiques. J'ai utilisé de nombreux SGBD  comme PostgreSQL, SQLite et SQL Server, ce qui m'a permis d'acquérir une expérience diversifiée dans la manipulation de différentes plateformes de bases de données. ",
+                    "J'ai utilisé SQL pour gérer des bases de données relationnelles, écrire des requêtes pour extraire et manipuler des données, et concevoir des schémas de base de données optimisés pour répondre à des besoins spécifiques. J'ai utilisé de nombreux SGBD  comme PostgreSQL, SQLite et SQL Server, ce qui m'a permis d'acquérir une expérience diversifiée dans la manipulation de différentes plateformes de bases de données. ",
                 image: sqlImg,
             },
         ],
@@ -43,7 +43,7 @@ export const SkillList = [
     {
         name: "Services Réseau",
         description:
-            "Un service réseau fait référence à toute fonctionnalité ou application qui est accessible à travers un réseau informatique. Ces services peuvent être de nature très diverse, allant des simples transferts de fichiers aux communications en temps réel, en passant par le stockage de données et l'accès à des ressources partagées.",
+            "Un service réseau fait référence à toutes les fonctionnalités ou applications accessibles à travers un réseau informatique. ",
         image: serviceReseauImg,
         skills: [
             {
@@ -61,7 +61,7 @@ export const SkillList = [
             {
                 name: "Apache",
                 description:
-                    "J'ai utilisé Apache pour configurer des serveurs web, mettant en place des virtual hosts pour héberger plusieurs sites web sur une même machine. En plus de cela, j'ai géré les logs d'accès et d'erreurs, assurant ainsi un suivi précis de l'activité du serveur. J'ai mis en place des configurations de droits d'accès pour protéger les données et restreindre l'accès aux ressources du serveur.",
+                    "J'ai utilisé Apache pour configurer des serveurs web en mettant en place des virtual hosts pour héberger plusieurs sites web sur une même machine. En plus de cela, j'ai géré les logs d'accès et d'erreurs, assurant ainsi un suivi précis de l'activité du serveur. J'ai mis en place des configurations de droits d'accès pour protéger les données et restreindre l'accès aux ressources du serveur.",
                 image: apacheImg,
             },
             {
@@ -99,7 +99,7 @@ export const SkillList = [
             {
                 name: "Metasploit",
                 description:
-                    "Avec Metasploit, j'ai mené des tests d'intrusion sur des systèmes informatiques pour évaluer leur sécurité et découvrir des failles et simuler des attaques et identifier les points faibles des systèmes cibles.",
+                    "Avec Metasploit, j'ai mené des tests d'intrusion sur des systèmes informatiques pour évaluer leur sécurité, découvrir des failles, simuler des attaques et identifier les points faibles des systèmes cibles.",
                 image: metasploitImg,
             },
         ],

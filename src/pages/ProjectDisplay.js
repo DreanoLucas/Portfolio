@@ -13,7 +13,7 @@ function ProjectDisplay() {
       <span>Description: {project.explain}</span>
       <img src={project.image} alt={project.name} />
       <p>
-        Compétences et outils utilisé: <b>{project.skills.join(", ")}</b>
+        Compétences et outils utilisés: <b>{project.skills.join(", ")}</b>
       </p>
       {project.link !== "" ? (
         <>

@@ -22,7 +22,7 @@ export const ProjectList = [
     {
         name: "Site Sanitaire RATP",
         explain:
-            "Ce projet permet de savoir quelle sanitaires sont disponibles selon la ligne de metro/RER que l'on emprunte et à quelle station.",
+            "Ce projet permet de savoir quels sanitaires sont disponibles selon la ligne de metro/RER que l'on emprunte et à quelle station.",
         image: youtubeImg,
         skills: ["Python", "CSV", "API Request", "JSON"],
         link: "https://dreanolucas.github.io/SAE15/html/ligne.html",
@@ -31,7 +31,7 @@ export const ProjectList = [
     {
         name: "Morpion avec interface graphique en C",
         explain:
-            "Ce projet m'a permis d'apprendre comment faire des interfaces graphiques avec le langagues C. Le code source du projet ce trouve sur github.",
+            "Ce projet m'a permis d'apprendre comment faire des interfaces graphiques avec le langague C. Le code source du projet se trouve sur github.",
         image: morpionImg,
         skills: ["C", "GCC"],
         link: "https://dreanolucas.github.io/SAE23/ludique.html",
@@ -40,7 +40,7 @@ export const ProjectList = [
     {
         name: "Gestion de bibliothéque en Python",
         explain:
-            "Ce projet réalisé en programation orienté objet nous a permis d'en apprendre d'avantage sur les classes et les paquets en Python. Il nous a aussi permis de gerer des bases de donnés avec JSON.",
+            "Ce projet réalisé en programation orienté objet nous a permis d'en apprendre davantage sur les classes et les paquets en Python. Il nous a aussi permis de gérer des bases de données avec JSON.",
         image: bibliodbImg,
         skills: ["Python", "POO", "JSON"],
         link: "",
@@ -49,7 +49,7 @@ export const ProjectList = [
     {
         name: "Attaque MiTM avec Scapy",
         explain:
-            "Projet effectué à deux qui nous a permis de réaliser une attaque de l'homme du millieu (MiTM) dans un réseaux privé en Python grâce à Scapy. Rapport disponible dans le README du Github",
+            "Projet effectué à deux qui nous a permis de réaliser une attaque de l'homme du millieu (MiTM) dans un réseau privé en Python grâce à Scapy. Rapport disponible dans le README du Github",
         image: mitmImg,
         skills: ["Python", "Oracle Virtual Box", "Scapy"],
         link: "https://github.com/DreanoLucas/SAE24",
