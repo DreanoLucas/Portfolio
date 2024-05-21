@@ -43,12 +43,11 @@ function Home() {
                     </p>
 
                     <p>
-                        L'intégration de cette formation, représente une étape
+                        L'intégration de cette formation représente une étape
                         cruciale vers ma carrière d'architecte réseaux.
-                        L'apprentissage, en tant qu'expérience professionnelle
-                        enrichissante me permettra d'acquérir des compétences
-                        techniques avec une véritable expérience
-                        professionnelle.
+                        L'apprentissage durant une véritable expérience
+                        professionnelle me permettra d'acquérir des compétences
+                        techniques enrichissantes pour mon futur.
                     </p>
 
                     <p>
@@ -60,12 +59,12 @@ function Home() {
                     </p>
 
                     <p>
-                        Je suis prêt à relever de nouveaux défis en tant
-                        qu'apprenti. En plus des compétences techniques, je
-                        possède également de bonnes capacités d'analyse et de
-                        résolution de problèmes techniques et relationnels.
+                        Prêt à relever de nouveaux défis en tant qu'apprenti.
                         J'aime travailler en équipe et je suis capable de
-                        communiquer efficacement.
+                        communiquer efficacement. En plus des compétences
+                        techniques, je possède également de bonnes capacités
+                        d'analyse et de résolution de problèmes techniques et
+                        relationnels
                     </p>
                 </div>
                 <div className="contain-button">
