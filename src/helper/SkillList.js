@@ -35,7 +35,7 @@ export const SkillList = [
             {
                 name: "SQL",
                 description:
-                    "J'ai utilié SQL pour gérer des bases de données relationnelles, d'écrire des requêtes pour extraire et manipuler des données, et de concevoir des schémas de base de données optimisés pour répondre à des besoins spécifiques. J'ai utilisé de nombreux SGBD  comme PostgreSQL, SQLite et SQL Server, ce qui m'a permis d'acquérir une expérience diversifiée dans la manipulation de différentes plateformes de bases de données. ",
+                    "J'ai utilisé SQL pour gérer des bases de données relationnelles, d'écrire des requêtes pour extraire et manipuler des données, et de concevoir des schémas de base de données optimisés pour répondre à des besoins spécifiques. J'ai utilisé de nombreux SGBD  comme PostgreSQL, SQLite et SQL Server, ce qui m'a permis d'acquérir une expérience diversifiée dans la manipulation de différentes plateformes de bases de données. ",
                 image: sqlImg,
             },
         ],
