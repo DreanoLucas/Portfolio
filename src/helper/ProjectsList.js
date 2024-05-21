@@ -25,7 +25,7 @@ export const ProjectList = [
             "Ce projet permet de savoir quelle sanitaires sont disponibles selon la ligne de metro/RER que l'on emprunte et à quelle station.",
         image: youtubeImg,
         skills: ["Python", "CSV", "API Request", "JSON"],
-        link: "https://github.com/Chadi-Mangle/dlplaylist",
+        link: "https://dreanolucas.github.io/SAE15/html/ligne.html",
         linktype: GithubItem,
     },
     {

@@ -38,7 +38,7 @@ function Home() {
                     <p>
                         Futur étudiant à Télécom SudParis en cycle ingénieur
                         informatique et réseaux en apprentissage, je suis à la
-                        recherche d'un contrat d'apprentissage d'un durée de 36
+                        recherche d'un contrat d'apprentissage d'une durée de 36
                         mois.{" "}
                     </p>
 
